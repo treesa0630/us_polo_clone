@@ -13,7 +13,7 @@ function Landing() {
 
   return (
     <>
-      <div style={{ width: '100%', overflowX:'hidden'}}>
+      <div style={{ width: '100%', overflowX: 'hidden' }}>
         <div className='landing-main d-flex justify-content-center align-items-center'>
           <div className='text-center text-light'>
             <h6 style={{ letterSpacing: '5px', fontWeight: '800' }}>BORN TO PLAY</h6>
@@ -27,7 +27,7 @@ function Landing() {
           <div style={{ width: '100%', height: '10px', backgroundColor: 'rgb(5, 5, 82)' }}></div>
           <div>
             <h5 className='text-center mt-5' style={{ letterSpacing: '6px', color: 'brown', fontWeight: '700' }}>USPA</h5>
-            <h1 className='text-center' style={{ color: 'rgb(5, 5, 82)', fontWeight: '700', fontFamily:' Cambria, Cochin, Georgia, Times, serif' }}>WHO WE ARE</h1>
+            <h1 className='text-center' style={{ color: 'rgb(5, 5, 82)', fontWeight: '700', fontFamily: ' Cambria, Cochin, Georgia, Times, serif' }}>WHO WE ARE</h1>
 
             <div style={{ padding: '0px 15%', fontSize: '17px' }}>
               <p className='mt-3 text-center'>U.S. Polo Assn. isn't just a brand—it's an experience. When you purchase U.S. Polo Assn., you own a piece of the <span style={{ color: 'brown', fontWeight: '700' }}>sport of polo</span>. We are the only brand that is officially part of the<span style={{ color: 'brown', fontWeight: '700' }}> United States Polo Association (USPA)</span>—one of the oldest sport governing bodies in the United States. This is a proud distinction that links our illustrious past to a bright future that you are an important part of. Royalties generated from U.S. Polo Assn. help fund the USPA, which grows and promotes the sport in the United States and around the world. Learn about the brand, the sport, and our place in history as you discover all that U.S. Polo Assn. has to offer.
@@ -48,7 +48,7 @@ function Landing() {
           </div>
 
           <div>
-            <h1 className='text-center mt-5' style={{ color: 'rgb(5, 5, 82)', fontWeight: '800',fontFamily:' Cambria, Cochin, Georgia, Times, serif' }}>INSPIRATION</h1>
+            <h1 className='text-center mt-5' style={{ color: 'rgb(5, 5, 82)', fontWeight: '800', fontFamily: ' Cambria, Cochin, Georgia, Times, serif' }}>INSPIRATION</h1>
           </div>
 
 
@@ -75,32 +75,32 @@ function Landing() {
                   <Row>
                     <Col sm={6} className='my-2'>
                       <div className='image image1 w-100'>
-                        <div className='name d-flex justify-content-center align-items-center'><h6 className='text-light'><FontAwesomeIcon icon={faInstagram} size='2xl' style={{color: "#ffffff",}} /></h6></div>
+                        <div className='name d-flex justify-content-center align-items-center'><h6 className='text-light'><FontAwesomeIcon icon={faInstagram} size='2xl' style={{ color: "#ffffff", }} /></h6></div>
                       </div>
                     </Col>
                     <Col sm={6} className='my-2'>
                       <div className='image image2 w-100'>
-                        <div className='name d-flex justify-content-center align-items-center'><h6 className='text-light'><FontAwesomeIcon icon={faInstagram} size='2xl' style={{color: "#ffffff",}} /></h6></div>
+                        <div className='name d-flex justify-content-center align-items-center'><h6 className='text-light'><FontAwesomeIcon icon={faInstagram} size='2xl' style={{ color: "#ffffff", }} /></h6></div>
                       </div>
                     </Col>
                   </Row>
                   <Row>
                     <Col sm={6} className='my-2'>
-                    <div className='image image3 w-100'>
-                        <div className='name d-flex justify-content-center align-items-center'><h6 className='text-light'><FontAwesomeIcon icon={faInstagram} size='2xl' style={{color: "#ffffff",}} /></h6></div>
+                      <div className='image image3 w-100'>
+                        <div className='name d-flex justify-content-center align-items-center'><h6 className='text-light'><FontAwesomeIcon icon={faInstagram} size='2xl' style={{ color: "#ffffff", }} /></h6></div>
                       </div>
                     </Col>
                     <Col sm={6} className='my-2'>
-                    <div className='image image4 w-100'>
-                        <div className='name d-flex justify-content-center align-items-center'><h6 className='text-light'><FontAwesomeIcon icon={faInstagram} size='2xl' style={{color: "#ffffff",}} /></h6></div>
+                      <div className='image image4 w-100'>
+                        <div className='name d-flex justify-content-center align-items-center'><h6 className='text-light'><FontAwesomeIcon icon={faInstagram} size='2xl' style={{ color: "#ffffff", }} /></h6></div>
                       </div>
                     </Col>
                   </Row>
                 </Col>
                 <Col sm={6} className='my-2'>
-                <div className='image image5 w-100'>
-                        <div className='name5 d-flex justify-content-center align-items-center'><h6 className='text-light'><FontAwesomeIcon icon={faInstagram} size='2xl' style={{color: "#ffffff",}} /></h6></div>
-                      </div>
+                  <div className='image image5 w-100'>
+                    <div className='name5 d-flex justify-content-center align-items-center'><h6 className='text-light'><FontAwesomeIcon icon={faInstagram} size='2xl' style={{ color: "#ffffff", }} /></h6></div>
+                  </div>
                 </Col>
               </Row>
             </Col>
@@ -111,7 +111,7 @@ function Landing() {
           <Row>
             <Col sm={2}></Col>
             <Col sm={8}>
-              <button className='w-100 view_more my-3'>VIEW MORE ON INSTAGRAM</button>
+              <button className='w-100 view_more my-3'><a href="https://www.instagram.com/uspoloassn/"> VIEW MORE ON INSTAGRAM</a></button>
             </Col>
             <Col sm={2}></Col>
           </Row>

@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import 'bootstrap/dist/css/bootstrap.min.css'; //
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import image from '../images/logo.png'
 import united_arab_emirates from '../images/united_arab_emirates.png'
@@ -27,64 +27,68 @@ import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faGlobe, faXmark } from '@fortawesome/free-solid-svg-icons';
 import Modal from 'react-bootstrap/Modal';
-import React from 'react';
+import React, { useState } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
 
 function Header() {
+    
+    const [modalShow, setModalShow] = useState(false);
+    const [expanded, setExpanded] = useState(false); // State to control navbar expansion
 
-    const [modalShow, setModalShow] = React.useState(false);
+    // Function to close the navbar after selecting a link
+    const handleNavLinkClick = () => {
+        setExpanded(false);}
 
     return (
         <>
             <div style={{position:'fixed', width:'100%', backgroundColor:'white'}}>
-                <Navbar  expand="lg" className="bg-body-transparent mt-2">
+                <Navbar expand="lg" className="body bg-body-transparent mt-2" expanded={expanded}>
                     <Container>
-                        <Link to={'/'} style={{ textDecoration: 'none' }}><Navbar.Brand href="#landing"><img src={image} alt="" style={{ height: '53px' }} /></Navbar.Brand></Link>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" className='me-3'/>
+                        <Link to="/" style={{ textDecoration: 'none' }}>
+                            <Navbar.Brand><img src={image} alt="Logo" style={{ height: '53px' }} /></Navbar.Brand>
+                        </Link>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} className='me-3' />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto mt-1">
-                               <Link to={'/collections'} style={{textDecoration:'none'}}> <Nav.Link className='mx-2 ms-md-5' style={{ fontWeight: '600' }} href="#home">Collections</Nav.Link></Link>
-                               <Link to={'/heritage'} style={{textDecoration:'none'}}> <Nav.Link className='mx-2' style={{ fontWeight: '600' }} href="#home">Heritage</Nav.Link></Link>
-                                <Link to={'/storelocator'} style={{textDecoration:'none'}}><Nav.Link className='mx-2' style={{ fontWeight: '600' }} href="#home">Store Locator</Nav.Link></Link>
-    
-                                <NavDropdown className='mx-2' style={{ fontWeight: '600' }} title="Ezine" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1" className='sub-link'>Field and Fashion Magazine</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2" className='sub-link'>
-                                        Paris Program
-                                    </NavDropdown.Item>
+                                <Link to="/collections" style={{ textDecoration: 'none' }} onClick={handleNavLinkClick}>
+                                    <Nav.Link className='item mx-2 ms-md-5' style={{ fontWeight: '600' }} href='#home'>Collections</Nav.Link>
+                                </Link>
+                                <Link to="/heritage" style={{ textDecoration: 'none' }} onClick={handleNavLinkClick}>
+                                    <Nav.Link className='item mx-2' style={{ fontWeight: '600' }} href='#home'>Heritage</Nav.Link>
+                                </Link>
+                                <Link to="/storelocator" style={{ textDecoration: 'none' }} onClick={handleNavLinkClick}>
+                                    <Nav.Link className='item mx-2' style={{ fontWeight: '600' }} href='#home'>Store Locator</Nav.Link>
+                                </Link>
+                                <NavDropdown className='item mx-2' style={{ fontWeight: '600' }} title="Ezine" id="basic-nav-dropdown">
+                                    <NavDropdown.Item href="#action/3.1" onClick={handleNavLinkClick}>Field and Fashion Magazine</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.2" onClick={handleNavLinkClick}>Paris Program</NavDropdown.Item>
                                 </NavDropdown>
-    
-                                <NavDropdown className='mx-2' style={{ fontWeight: '600' }} title="News" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1" className='sub-link'>Press Releases</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2" className='sub-link'>
-                                        Media Coverage
-                                    </NavDropdown.Item>
+                                <NavDropdown className='item mx-2' style={{ fontWeight: '600' }} title="News" id="basic-nav-dropdown">
+                                    <NavDropdown.Item href="#action/3.1" onClick={handleNavLinkClick}>Press Releases</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.2" onClick={handleNavLinkClick}>Media Coverage</NavDropdown.Item>
                                 </NavDropdown>
-    
-                                <NavDropdown className='mx-2' style={{ fontWeight: '600' }} title="USPA Life" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1" className='sub-link'>USPA Life</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2" className='sub-link'>
-                                        4ocean
-                                    </NavDropdown.Item>
+                                <NavDropdown className='item mx-2' style={{ fontWeight: '600' }} href='#home' title="USPA Life" id="basic-nav-dropdown">
+                                    <NavDropdown.Item href="#action/3.1" onClick={handleNavLinkClick}>USPA Life</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.2" onClick={handleNavLinkClick}>4ocean</NavDropdown.Item>
                                 </NavDropdown>
-    
-                                <Link to={'/shopnow'} style={{textDecoration:'none'}}><Nav.Link className='mx-2' style={{ fontWeight: '600' }} href="#home">Shop Now</Nav.Link></Link>
-    
+                                <Link to="/shopnow" style={{ textDecoration: 'none' }} onClick={handleNavLinkClick}>
+                                    <Nav.Link className='item mx-2' style={{ fontWeight: '600' }} href='#home'>Shop Now</Nav.Link>
+                                </Link>
                             </Nav>
                             <div>
-                                <Link to={'/'} style={{ textDecoration: 'none' }}><Navbar.Brand className='d-none d-md-inline' href="#landing"><img src='https://images.ctfassets.net/6igiux0rebzg/2m37baHnMucJ78bIWzBJik/30a5fed850e3d73feefde604e5428017/uspolo-seal.svg' alt="" style={{ height: '55px' }} /></Navbar.Brand></Link>
-    
+                                <Link to="/" style={{ textDecoration: 'none' }}>
+                                    <Navbar.Brand className='d-none d-md-inline'>
+                                        <img src="https://images.ctfassets.net/6igiux0rebzg/2m37baHnMucJ78bIWzBJik/30a5fed850e3d73feefde604e5428017/uspolo-seal.svg" alt="" style={{ height: '55px' }} />
+                                    </Navbar.Brand>
+                                </Link>
                                 <Button variant="" onClick={() => setModalShow(true)}>
-                                    <FontAwesomeIcon icon={faGlobe} size='xl' style={{ color: "#000000", }} /> <FontAwesomeIcon className='ms-2' icon={faAngleDown} style={{color: "#000000",}} />
+                                    <FontAwesomeIcon icon={faGlobe} size='xl' style={{ color: "#000000", }} /> 
+                                    <FontAwesomeIcon className='ms-2' icon={faAngleDown} style={{ color: "#000000", }} />
                                 </Button>
-    
-                                <MyVerticallyCenteredModal
-                                    show={modalShow}
-                                    onHide={() => setModalShow(false)}
-                                />
+                                <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)} />
                             </div>
                         </Navbar.Collapse>
                     </Container>

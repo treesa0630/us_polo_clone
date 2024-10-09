@@ -1,7 +1,9 @@
 *{
   padding: 0px;
   margin: 0px;
-  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+.body .item:hover{
+  color: darkgray;
 }
 .sub-link:hover{
   color: rgb(206, 11, 11);
@@ -28,7 +30,7 @@
   .inputname{
     font-size: 15px;
   }
-  ul li{
+  ul{
     list-style: none;
     font-size: 15px;
   }
@@ -48,7 +50,7 @@ input, .inputbutton{
 ul li h6{
   font-size: 18px;
 }
-ul li:hover{
+ul .link-item:hover{
   color: rgb(206, 11, 11);
   cursor: pointer;
 }
@@ -68,16 +70,23 @@ ul li:hover{
 }
 .view_more{
   height: 75px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border: none;
   background: none;
   font-size: larger;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 6px;
   box-shadow: 0px 5px 8px 0px rgb(240, 239, 239);
 }
+.view_more a{
+  color: black;
+  text-decoration: none;
+}
+.view_more:hover a{
+  color: white;
+}
 .view_more:hover{
   transition: .3s;
-  color: white;
   background-color: rgb(5, 5, 82);
 }
 .image1{
@@ -139,4 +148,152 @@ ul li:hover{
 }
 .image:hover h6{
   display: block;
+}
+.no-arrow .accordion-button::after {
+  display: none;
+}
+
+
+/* heritage  page */
+.heritage-main{
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/heritage_pg_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@keyframes zoom {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 5;
+  }
+}
+.heritage-boxes{
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('https://www.researchgate.net/publication/375109136/figure/fig1/AS:11431281202244092@1698766428359/A-timeline-illustrating-key-milestones-in-the-development-of-generative-AI-from-Turing.png');
+}
+@media (min-width:600px) {
+  .heritage-boxes{
+    margin: 10% 0;
+    background-position: center;
+  }
+}
+@media (max-width:600px) {
+  .heritage-boxes{
+    margin: 10% 0;
+    background: none;
+  }
+}
+
+/* collection page */
+.collection-main{
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/collection_pg_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.collection-part{
+  /* height: 35vh; */
+  width: 100%;
+  background-image: url(./images/collection_part_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+.collection-part1{
+  width: 100%;
+  /* height: 35vh; */
+  background-color: rgba(255, 255, 255, 0.829);
+}
+
+/* shop-now page */
+.shop-main{
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/shop_now_bg3.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.shop li{
+  list-style: disc;
+  margin-left: 1%;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media (max-width:600px) {
+  .shop li{
+    font-size: 20px;
+   
+  }
+}
+.shop{
+  margin: 4% 0;
+}
+.shop a{
+  text-decoration: none;
+  color: brown;
+}
+.shop a:hover{
+  text-decoration: underline;
+}
+
+
+.look1{
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./images/collection_img_1.jpg);
+}
+.look2{
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./images/collection_img_2.jpg);
+}
+.look3{
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./images/collection_img_3.jpg);
+}
+.look4{
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./images/collection_img_4.jpg);
+}
+.look5{
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./images/collection_img_5.jpg);
+}
+.look-name{
+  height: 350px;
+  align-items: end;
+}
+.look:hover .look-name{
+  cursor: pointer;
+  transition: .3s;
+  animation: move;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+/* .bottom-color{
+  display: none;
+} */
+.look:hover .bottom-color{
+  display: inline-block;
 }
