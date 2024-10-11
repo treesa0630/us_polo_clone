@@ -27,7 +27,7 @@ function Login() {
                             <p ><b>* Log in using Mobile Number</b></p>
                             <p ><a className='text-dark' href="">Log in using email</a></p>
                         </div>
-                        <input type="text" className='form-control px-3 rounded-4 shadow' style={{ height: '50px' }} placeholder='Mobile Number' name="" id="" />
+                        <input type="number" className='form-control px-3 rounded-4 shadow' style={{ height: '50px' }} placeholder='Mobile Number' name="" id="" />
 
                         <p className='input-box mt-2'><b>* Enter OTP</b></p>
                         <div className='d-flex'>
