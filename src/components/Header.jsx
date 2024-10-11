@@ -46,7 +46,7 @@ import Modal from 'react-bootstrap/Modal';
 import React, { useState } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import PersonIcon from '@mui/icons-material/Person';
 
 
 function Header() {
@@ -105,6 +105,7 @@ function Header() {
                                     <FontAwesomeIcon icon={faGlobe} size='xl' style={{ color: "#000000", }} />
                                     <FontAwesomeIcon className='ms-2' icon={faAngleDown} style={{ color: "#000000", }} />
                                 </Button>
+                               <Link to="/login" style={{ textDecoration: 'none', color:'black' }}  onClick={handleNavLinkClick}> <PersonIcon className='fs-1'/></Link>
                                 <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)} />
                             </div>
                         </Navbar.Collapse>

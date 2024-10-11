@@ -324,6 +324,28 @@ ul .link-item:hover{
   
 }
 
+/* account */
+.account-heading{
+  font-family: "Cinzel", serif;
+  font-size: 44px;
+  font-weight: 600;
+}
+@media (max-width:600px) {
+  .account-heading{
+    font-size: 30px;
+  }
+  .input-box{
+    font-size: 12px;
+  }
+}
+.complete-profile{
+  font-size: 12px;
+}
+.acnt-name{
+  text-decoration: none;
+  color: rgb(206, 205, 205);
+}
 html{
   scroll-behavior: smooth;
 }
+

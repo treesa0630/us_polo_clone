@@ -8,7 +8,6 @@ import TuneIcon from '@mui/icons-material/Tune';
 import australia from '../images/australia.png'
 import Modal from 'react-bootstrap/Modal';
 import Dropdown from 'react-bootstrap/Dropdown';
-// import Button from 'react-bootstrap/Button';
 import InputGroup from 'react-bootstrap/InputGroup';
 
 
@@ -54,7 +53,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+              <button style={{height:'45px',border:'none'}} className='w-50 mt-4 mt-md-2 bg-danger text-light rounded-0' variant="contained">DIRECTIONS</button>
               </Row>
             </Row>
             <hr />
@@ -70,7 +69,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+              <button style={{height:'45px',border:'none'}} className='w-50 mt-4 mt-md-2 bg-danger text-light rounded-0' variant="contained">DIRECTIONS</button>
               </Row>
             </Row>
             <hr />
@@ -86,7 +85,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+              <button style={{height:'45px',border:'none'}} className='w-50 mt-4 mt-md-2 bg-danger text-light rounded-0' variant="contained">DIRECTIONS</button>
               </Row>
             </Row>
             <hr />
@@ -102,7 +101,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+              <button style={{height:'45px',border:'none'}} className='w-50 mt-4 mt-md-2 bg-danger text-light rounded-0' variant="contained">DIRECTIONS</button>
               </Row>
             </Row>
             <hr />
@@ -118,7 +117,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+              <button style={{height:'45px',border:'none'}} className='w-50 mt-4 mt-md-2 bg-danger text-light rounded-0' variant="contained">DIRECTIONS</button>
               </Row>
             </Row>
             <hr />
@@ -134,7 +133,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+              <button style={{height:'45px',border:'none'}} className='w-50 mt-4 mt-md-2 bg-danger text-light rounded-0' variant="contained">DIRECTIONS</button>
               </Row>
             </Row>
             <hr />
@@ -150,7 +149,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+              <button style={{height:'45px',border:'none'}} className='w-50 mt-4 mt-md-2 bg-danger text-light rounded-0' variant="contained">DIRECTIONS</button>
               </Row>
             </Row>
             <hr />
@@ -166,7 +165,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+              <button style={{height:'45px',border:'none'}} className='w-50 mt-4 mt-md-2 bg-danger text-light rounded-0' variant="contained">DIRECTIONS</button>
               </Row>
             </Row>
             <hr />
@@ -182,7 +181,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+              <button style={{height:'45px',border:'none'}} className='w-50 mt-4 mt-md-2 bg-danger text-light rounded-0' variant="contained">DIRECTIONS</button>
               </Row>
             </Row>
             <hr />
@@ -198,7 +197,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+              <button style={{height:'45px',border:'none'}} className='w-50 mt-4 mt-md-2 bg-danger text-light rounded-0' variant="contained">DIRECTIONS</button>
               </Row>
             </Row>
             <hr />
@@ -214,7 +213,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+                <button style={{height:'45px',border:'none'}} className='w-50 mt-4 mt-md-2 bg-danger text-light rounded-0' variant="contained">DIRECTIONS</button>
               </Row>
             </Row>
             <hr />

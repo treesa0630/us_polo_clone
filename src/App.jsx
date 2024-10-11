@@ -7,7 +7,10 @@ import Collections from './pages/Collections'
 import Heritage from './pages/Heritage'
 import Storelocator from './pages/Storelocator'
 import Shopnow from './pages/Shopnow'
-import ScrollToTop from './pages/ScrollTop';  
+import ScrollToTop from './pages/ScrollTop';
+// import { Login } from '@mui/icons-material'
+import Signup from './pages/Signup'
+import Login  from './pages/Login'
 
 
 function App() {
@@ -16,24 +19,24 @@ function App() {
   return (
     <>
       <div>
-        <ScrollToTop/>
+        <ScrollToTop />
         <div style={{ overflow: 'hidden' }}>
-        <Header />
+          <Header />
 
+          <Routes>
 
-        <Routes>
+            <Route path='/' element={<Landing />} />
+            <Route path='/collections' element={<Collections />} />
+            <Route path='/heritage' element={<Heritage />} />
+            <Route path='/storelocator' element={<Storelocator />} />
+            <Route path='/shopnow' element={<Shopnow />} />
+            <Route path='/login' element={<Login/>}/>
+            <Route path='/signup' element={<Signup/>}/>
 
-          <Route path='/' element={<Landing />} />
-          <Route path='/collections' element={<Collections />} />
-          <Route path='/heritage' element={<Heritage />} />
-          <Route path='/storelocator' element={<Storelocator />} />
-          <Route path='/shopnow' element={<Shopnow />} />
+          </Routes>
 
-        </Routes>
-
-
-        <Footer />
-      </div>
+          <Footer />
+        </div>
       </div>
 
     </>
