@@ -10,7 +10,7 @@ import AppleIcon from '@mui/icons-material/Apple';
 function Signup() {
     return (
         <>
-            <div className='account-main' style={{ height: '110vh', width: '100%' }}>
+            <div className='account-main' style={{ height: '120vh', width: '100%' }}>
                 <div style={{ height: '25vh' }} className='d-flex justify-content-center align-items-end'><h1 className='account-heading'>MY ACCOUNT</h1></div>
                 <Row>
                     <Col sm={3}></Col>
