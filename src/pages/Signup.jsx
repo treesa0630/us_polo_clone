@@ -17,9 +17,9 @@ function Signup() {
                     <Col className='px-4 '>
                         <Row className='d-flex mt-5'>
                             <Col className='text-center' ><Link to='/login' className='acnt-name'><h4 >LOGIN</h4></Link>
-                                <hr className='login-hr' /></Col>
+                            <div className='mt-4' style={{height:'2px',width:'100%', backgroundColor:'lightgrey'}}></div></Col>
                             <Col className='text-center'><h4><Link to='/signup' className='acnt-name text-dark'>SIGNUP</Link></h4>
-                                <hr className='signup-hr' /></Col>
+                            <div className='mt-4' style={{height:'2px',width:'100%', backgroundColor:'black'}}></div></Col>
                         </Row>
 
                         <div className='input-box d-flex justify-content-between mt-5'>
@@ -49,7 +49,7 @@ function Signup() {
                         {/* <Button style={{ height: '45px' }} variant="" className='bg-dark text-light w-100 rounded-3'>SIGNUP</Button> */}
                         <button style={{ height: '45px' }} variant="" className='bg-dark text-light w-100 rounded-3 shadow'>SIGNUP</button>
 
-                        <div className='text-center m-5'><button className='py-1 px-3 me-2 rounded-5' style={{border:'none' }}><GoogleIcon style={{height:'45px'}}/></button> <button className='py-1 px-3 ms-2 rounded-5' style={{border:'none' }}><AppleIcon style={{height:'45px'}}/></button></div>
+                        <div className='text-center m-5 '><button className='py-1 px-3 me-2 rounded-5' style={{border:'none' }}><GoogleIcon style={{height:'45px'}}/></button> <button className='py-1 px-3 ms-2 rounded-5' style={{border:'none' }}><AppleIcon style={{height:'45px'}}/></button></div>
 
                     </Col>
                     <Col sm={3}></Col>
