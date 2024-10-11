@@ -18,9 +18,11 @@ function Login() {
                     <Col className='px-4'>
                         <Row className='d-flex mt-5'>
                             <Col className='text-center' ><Link to='/login' className='acnt-name text-dark'><h4 >LOGIN</h4></Link>
-                                <hr className='login-hr' /></Col>
+                                <div className='mt-4' style={{height:'2px',width:'100%', backgroundColor:'black'}}></div>
+                                </Col>
                             <Col className='text-center'><h4 ><Link className='acnt-name' to='/signup' >SIGNUP</Link></h4>
-                                <hr className='signup-hr' /></Col>
+                            <div className='mt-4' style={{height:'2px',width:'100%', backgroundColor:'lightgrey'}}></div>
+                            </Col>
                         </Row>
 
                         <div className='input-box d-flex justify-content-between mt-5'>
