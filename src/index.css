@@ -338,6 +338,10 @@ ul .link-item:hover{
     font-size: 12px;
   }
 }
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
 .complete-profile{
   font-size: 12px;
 }
