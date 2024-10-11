@@ -111,7 +111,7 @@ function Landing() {
           <Row>
             <Col sm={2}></Col>
             <Col sm={8}>
-              <button className='w-100 view_more my-3'><a href="https://www.instagram.com/uspoloassn/"> VIEW MORE ON INSTAGRAM</a></button>
+              <button className='w-100 view_more my-3'><a target='_blank' href="https://www.instagram.com/uspoloassn?igsh=MWlvd3ZvNjQyY3lnMQ== "> VIEW MORE ON INSTAGRAM</a></button>
             </Col>
             <Col sm={2}></Col>
           </Row>

@@ -1,6 +1,7 @@
 import React from 'react'
 import image from '../images/footer_img_icon_2.png'
 import { Col, Row } from 'react-bootstrap'
+import NearMeIcon from '@mui/icons-material/NearMe';
 import img from '../images/collection_img_1.jpg'
 
 function Collections() {
@@ -12,8 +13,8 @@ function Collections() {
             <h6 style={{ letterSpacing: '5px', fontWeight: '800' }}>EXPLORE THE COLLECTIONS</h6>
             <h1>U.S. Polo Assn.</h1>
             <div className='d-flex mt-5 pt-5'>
-              <input className='form-control me-md-4 rounded-0' placeholder='Zip, Postal Code or City' type="text" name="" id="" />
-              <button className='text-light' style={{ width: '200px', backgroundColor: 'brown', border: 'none' }}>FIND LOCATION</button>
+              <input className='form-control me-md-4 w-100 rounded-0' placeholder='Zip, Postal Code or City' type="text" name="" id="" />
+              <button className='text-light w-75' style={{ width: '200px', backgroundColor: 'brown', border: 'none', fontWeight:'700' }}><span className='d-flex'>FIND LOCATION <NearMeIcon/></span></button>
             </div>
           </div>
         </div>
@@ -48,7 +49,7 @@ function Collections() {
             <Row>
               <Col className='my-2'>
                 <div className='look look1  w-100 mb-4'>
-                  <div className='look-name d-flex justify-content-center align-items-end'><h4 className='text-light'>ICONIC LAYERS</h4></div>
+                  <div className='look-name d-flex justify-content-center align-items-end'><h4 className='look-part-name text-light'>ICONIC LAYERS</h4></div>
                   <div className='bottom-color'>
                     <div style={{ width: '100%', height: '3px', backgroundColor: 'brown' }}></div>
                     <div style={{ width: '100%', height: '6px', backgroundColor: 'white' }}></div>
@@ -58,7 +59,7 @@ function Collections() {
               </Col>
               <Col className='my-2'>
               <div className='look look2  w-100 mb-4'>
-                <div className='look-name d-flex justify-content-center align-items-end'><h4 className='text-light'>ICONIC DENIM</h4></div>
+                <div className='look-name d-flex justify-content-center align-items-end'><h4 className='look-part-name text-light'>ICONIC DENIM</h4></div>
                 <div className='bottom-color'>
                   <div style={{ width: '100%', height: '3px', backgroundColor: 'brown' }}></div>
                   <div style={{ width: '100%', height: '6px', backgroundColor: 'white' }}></div>
@@ -72,7 +73,7 @@ function Collections() {
             <Row>
               <Col className='my-2'>
               <div className='look look3  w-100 mb-4'>
-                <div className='look-name d-flex justify-content-center align-items-end'><h4 className='text-light'>ICONIC SWEATERS</h4></div>
+                <div className='look-name d-flex justify-content-center align-items-end'><h4 className='look-part-name text-light'>ICONIC SWEATERS</h4></div>
                 <div className='bottom-color'>
                   <div style={{ width: '100%', height: '3px', backgroundColor: 'brown' }}></div>
                   <div style={{ width: '100%', height: '6px', backgroundColor: 'white' }}></div>
@@ -81,7 +82,7 @@ function Collections() {
               </div></Col>
               <Col className='my-2'>
               <div className='look look4  w-100 mb-4'>
-                <div className='look-name d-flex justify-content-center align-items-end'><h4 className='text-light'>ICONIC POLO SHIRTS</h4></div>
+                <div className='look-name d-flex justify-content-center align-items-end'><h4 className='look-part-name text-light'>ICONIC POLO SHIRTS</h4></div>
                 <div className='bottom-color'>
                   <div style={{ width: '100%', height: '3px', backgroundColor: 'brown' }}></div>
                   <div style={{ width: '100%', height: '6px', backgroundColor: 'white' }}></div>
@@ -96,7 +97,7 @@ function Collections() {
             <Row>
               <Col className='my-2' sm={6}>
                 <div className='look look5  w-100 mb-4'>
-                  <div className='look-name d-flex justify-content-center align-items-end'><h4 className='text-light'>POLO PLAYERS INSPIRED</h4></div>
+                  <div className='look-name d-flex justify-content-center align-items-end'><h4 className='look-part-name text-light'>POLO PLAYERS INSPIRED</h4></div>
                   <div className='bottom-color'>
                     <div style={{ width: '100%', height: '3px', backgroundColor: 'brown' }}></div>
                     <div style={{ width: '100%', height: '6px', backgroundColor: 'white' }}></div>

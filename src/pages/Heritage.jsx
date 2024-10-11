@@ -4,7 +4,15 @@ import Modal from 'react-bootstrap/Modal';
 import landing_fun_facts from '../images/landing_pg_fast_fact.jpg'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import AddCircleIcon from '@mui/icons-material/AddCircle';
+import heritage_img_1 from '../images/heritage_img_1.jpg'
+import heritage_img_2 from '../images/heritage_img_2.jpg'
+import heritage_img_3 from '../images/heritage_img_3.jpg'
+import heritage_img_4 from '../images/heritage_img_4.jpg'
+import heritage_img_5 from '../images/heritage_img_5.jpg'
+import heritage_img_6 from '../images/heritage_img_6.jpg'
+import heritage_img_7 from '../images/heritage_img_7.jpg'
+import heritage_img_8 from '../images/heritage_img_8.jpg'
 
 
 function Heritage() {
@@ -71,18 +79,116 @@ function Heritage() {
               <Col sm={3}></Col>
               <Col sm={6}>
                 <Row className='heritage-boxes'>
-                  <Col sm={6} >
-                    <div className='box  rounded-5' style={{ height: '480px', marginTop: '10%',padding:'1%' , backgroundColor:'grey'}}></div>
-                    <div className='box rounded-5' style={{ height: '480px', backgroundColor: 'grey', marginTop: '10%' }}></div>
-                    <div className='box rounded-5' style={{ height: '480px', backgroundColor: 'grey', marginTop: '10%' }}></div>
-                    <div className='box rounded-5' style={{ height: '480px', backgroundColor: 'grey', marginTop: '10%' }}></div>
+                  <Col >
+                    <div className='box shadow rounded-5 p-2' style={{ height: '515px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '495px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img className='w-75' src={heritage_img_1} alt="" />
+                        </div>
+                        <div className='text-center px-5'>
+                          <h4 style={{ color: 'brown' }}>FIP Event Hosting</h4>
+                          <h2 style={{ fontWeight: '700' }}>2022</h2>
+                          <p>In November 2022, the Federation of International (FIP) World Polo Championship was hosted in Palm Beach County, Florida by U.S. Polo Assn. and the USPA, returning to the U.S. after a 30-year hiatus.</p>
+                          <AddCircleIcon className='heritage_icon'/>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='box shadow rounded-5 p-2' style={{ height: '520px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 px-md-3 py-md-5' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img className='w-75' src={heritage_img_3} alt="" />
+                        </div>
+                        <div className='text-center px-5'>
+                          <h4 style={{ color: 'brown' }}>FIP Event Hosting</h4>
+                          <h2 style={{ fontWeight: '700' }}>2022</h2>
+                          <p>For the first time in the history of the sport of polo, ESPN delivered a full calendar of events for television viewing. This landmark relationship offered fans the opportunity to view polo around the world on the ESPN family of brands.</p>
+                          <AddCircleIcon className='heritage_icon'/>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='box shadow rounded-5 p-2' style={{ height: '520px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img style={{ height: '156px' }} src={heritage_img_5} alt="" />
+                        </div>
+                        <div className='text-center px-5'>
+                          <h4 style={{ color: 'brown' }}>130th Anniversary</h4>
+                          <h2 style={{ fontWeight: '700' }}>2020</h2>
+                          <p><b>130th Anniversary of the USPA commemorated.</b> <br />
+
+                            Our brand stays true to our heritage and takes inspiration from the classic polo player’s uniform: a polo shirt, denim, leather belt and boots. This style consistently remains the foundation for much of our best-selling apparel.</p>
+                            <AddCircleIcon className='heritage_icon'/>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='box shadow rounded-5 p-2' style={{ height: '500px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '480px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img className='w-75' src={heritage_img_7} alt="" />
+                        </div>
+                        <div className='text-center px-5 mt-5'>
+                          <h4 style={{ color: 'brown' }}>Gauntlet of Polo</h4>
+                          <h2 style={{ fontWeight: '700' }}>2019</h2>
+                          <p>The Gauntlet of Polo is survival of the fittest as the World’s preeminent teams, most skilled athletes and finest horses come together for three months to battle head to head across the C.V. Whitney Cup, the USPA Gold Cup, and the U.S. Open Polo Championship.</p>
+                          <AddCircleIcon className='heritage_icon'/>
+                        </div>
+                      </div>
+                    </div>
 
                   </Col>
-                  <Col sm={6} className='mt-md-5 pt-md-5'>
-                    <div className='box rounded-5' style={{ height: '480px', backgroundColor: 'grey', marginTop: '10%' }}></div>
-                    <div className='box  rounded-5' style={{ height: '480px', backgroundColor: 'grey', marginTop: '10%' }}></div>
-                    <div className='box rounded-5' style={{ height: '480px', backgroundColor: 'grey', marginTop: '10%' }}></div>
-                    <div className='box rounded-5' style={{ height: '480px', backgroundColor: 'grey', marginTop: '10%' }}></div>
+                  <Col className='mt-md-5 pt-md-5'>
+                    <div className='box shadow rounded-5 p-2' style={{ height: '515px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 px-md-3 py-md-5' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img className='w-75' src={heritage_img_2} alt="" />
+                        </div>
+                        <div className='text-center px-5'>
+                          <h4 style={{ color: 'brown' }}>IPC Purchase</h4>
+                          <h2 style={{ fontWeight: '700' }}>2022</h2>
+                          <p>June 2022 heralded the month when the United States Polo Association secured the permanent home for polo in the United States. The USPA National Polo Center-Wellington (NPC) offers the sport of polo a lasting future in the Equestrian Capital of the World.</p>
+                          <AddCircleIcon className='heritage_icon'/>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='box shadow rounded-5 p-2' style={{ height: '510px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '490px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img className='w-50' src={heritage_img_4} alt="" />
+                        </div>
+                        <div className='text-center px-5'>
+                          <h4 style={{ color: 'brown' }}>Global Polo</h4>
+                          <h2 style={{ fontWeight: '700' }}>2020</h2>
+                          <p>A first of its kind, this digital destination connects fans with all things polo. Launched in January 2020, Global Polo offers polo games, lifestyle content and behind the scenes stories to grow awareness for the sport of polo.</p>
+                          <AddCircleIcon className='heritage_icon'/>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='box shadow rounded-5 p-2' style={{ height: '500px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '480px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img className='w-75' src={heritage_img_6} alt="" />
+                        </div>
+                        <div className='text-center px-5'>
+                          <h4 style={{ color: 'brown' }}>Collegiate Partnership Program</h4>
+                          <h2 style={{ fontWeight: '700' }}>2019</h2>
+                          <p>Beginning in 2019, U.S. Polo Assn. created the Collegiate Partnership Program, which has supported nearly 50 college teams in the United States helping them build their programs each year to showcase polo at the college level.</p>
+                          <AddCircleIcon className='heritage_icon'/>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='box shadow rounded-5 p-2' style={{ height: '520px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img style={{ height: '156px' }} src={heritage_img_8} alt="" />
+                        </div>
+                        <div className='text-center px-5'>
+                          <h4 style={{ color: 'brown' }}>125th Anniversary</h4>
+                          <h2 style={{ fontWeight: '700' }}>2015</h2>
+                          <p>The 125th anniversary of the USPA is commemorated with nationally televised and live streamed major tournaments throughout the United States, a national competition for creation of the 125th logo and USPA heritage-inspired product around the world recognizing the milestone.</p>
+                          <AddCircleIcon className='heritage_icon'/>
+                        </div>
+                      </div>
+                    </div>
                   </Col>
                 </Row>
               </Col>

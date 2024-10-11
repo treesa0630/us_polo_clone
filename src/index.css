@@ -5,6 +5,10 @@
 .body .item:hover{
   color: darkgray;
 }
+.body .item:focus{
+  color: brown;
+  text-transform: uppercase;
+}
 .sub-link:hover{
   color: rgb(206, 11, 11);
   background-color: transparent;
@@ -291,9 +295,22 @@ ul .link-item:hover{
   animation: move;
   background-color: rgba(0, 0, 0, 0.349);
 }
-/* .bottom-color{
-  display: none;
-} */
+.look:hover .look-part-name{
+  font-weight: 800;
+  transition: .5s;
+  transform: translateY(-90px);
+  
+}
 .look:hover .bottom-color{
   display: inline-block;
+  background-color: rgb(245, 245, 245);
+}
+.box:hover .heritage_icon{
+  color: brown;
+  transform: scale(1.3);
+  transition: .1s;
+}
+
+html{
+  scroll-behavior: smooth;
 }

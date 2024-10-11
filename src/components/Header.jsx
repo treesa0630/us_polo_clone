@@ -63,16 +63,16 @@ function Header() {
                                     <Nav.Link className='item mx-2' style={{ fontWeight: '600' }} href='#home'>Store Locator</Nav.Link>
                                 </Link>
                                 <NavDropdown className='item mx-2' style={{ fontWeight: '600' }} title="Ezine" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1" onClick={handleNavLinkClick}>Field and Fashion Magazine</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2" onClick={handleNavLinkClick}>Paris Program</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.1" onClick={handleNavLinkClick} className='sub-link'>Field and Fashion Magazine</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.2" onClick={handleNavLinkClick} className='sub-link'>Paris Program</NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown className='item mx-2' style={{ fontWeight: '600' }} title="News" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1" onClick={handleNavLinkClick}>Press Releases</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2" onClick={handleNavLinkClick}>Media Coverage</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.1" onClick={handleNavLinkClick} className='sub-link'>Press Releases</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.2" onClick={handleNavLinkClick} className='sub-link'>Media Coverage</NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown className='item mx-2' style={{ fontWeight: '600' }} href='#home' title="USPA Life" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1" onClick={handleNavLinkClick}>USPA Life</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2" onClick={handleNavLinkClick}>4ocean</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.1" onClick={handleNavLinkClick} className='sub-link'>USPA Life</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.2" onClick={handleNavLinkClick} className='sub-link'>4ocean</NavDropdown.Item>
                                 </NavDropdown>
                                 <Link to="/shopnow" style={{ textDecoration: 'none' }} onClick={handleNavLinkClick}>
                                     <Nav.Link className='item mx-2' style={{ fontWeight: '600' }} href='#home'>Shop Now</Nav.Link>

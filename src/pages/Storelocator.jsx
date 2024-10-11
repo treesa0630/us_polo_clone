@@ -8,7 +8,7 @@ import TuneIcon from '@mui/icons-material/Tune';
 import australia from '../images/australia.png'
 import Modal from 'react-bootstrap/Modal';
 import Dropdown from 'react-bootstrap/Dropdown';
-import Form from 'react-bootstrap/Form';
+// import Button from 'react-bootstrap/Button';
 import InputGroup from 'react-bootstrap/InputGroup';
 
 
@@ -42,7 +42,7 @@ function Storelocator() {
           <h6 className=' ms-3'>50 Locations near United States</h6>
 
 
-          <div className='overflow-auto' style={{ height: '670px' }}>
+          <div className='overflow-auto' style={{ height: '670px'}}>
 
             <Row className='ms-3 mt-4'>
               <div className='d-flex'>
@@ -54,7 +54,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-25 bg-danger rounded-0' variant="contained">Directions</Button>
+                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
               </Row>
             </Row>
             <hr />
@@ -69,7 +69,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-25 bg-danger rounded-0' variant="contained">Directions</Button>
+                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
               </Row>
             </Row>
             <hr />
@@ -84,7 +84,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-25 bg-danger rounded-0' variant="contained">Directions</Button>
+                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
               </Row>
             </Row>
             <hr />
@@ -99,7 +99,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-25 bg-danger rounded-0' variant="contained">Directions</Button>
+                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
               </Row>
             </Row>
             <hr />
@@ -114,7 +114,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-25 bg-danger rounded-0' variant="contained">Directions</Button>
+                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
               </Row>
             </Row>
             <hr />
@@ -129,7 +129,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-25 bg-danger rounded-0' variant="contained">Directions</Button>
+                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
               </Row>
             </Row>
             <hr />
@@ -144,7 +144,7 @@ function Storelocator() {
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
-                <Button className='w-25 bg-danger rounded-0' variant="contained">Directions</Button>
+                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
               </Row>
             </Row>
             <hr />
@@ -212,8 +212,9 @@ function MyVerticallyCenteredModal(props) {
         </div>
 
       </Modal.Body>
-      <Modal.Footer className='d-flex justify-content-ende'>
-      <Button className='bg-danger' variant="secondary" onClick={props.onHide}>CLOSE</Button>{' '}
+      <Modal.Footer className='d-flex justify-content-between'>
+      <Button variant="outline-primary" className='border border-primary'>CLEAR ALL</Button>{' '}
+      <Button className='bg-success text-light' variant="secondary" onClick={props.onHide}>APPLY</Button>{' '}
         
       </Modal.Footer>
     </Modal>
