@@ -26,7 +26,7 @@ function Signup() {
                             <p ><b>* Sign up using Mobile Number</b></p>
                             <p ><a className='text-dark' href="">Sign up using email</a></p>
                         </div>
-                        <input type="text" className='form-control px-3 rounded-4 shadow' style={{ height: '50px' }} placeholder='Mobile Number' name="" id="" />
+                        <input type="number" className='form-control px-3 rounded-4 shadow' style={{ height: '50px' }} placeholder='Mobile Number' name="" id="" />
 
                         <p className='input-box mt-2'><b>* Enter OTP</b></p>
                         <div className='d-flex'>
