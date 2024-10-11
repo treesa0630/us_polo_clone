@@ -113,8 +113,8 @@ function Heritage() {
                         </div>
                       </div>
                     </div>
-                    <div className='box shadow rounded-5 me-md-3 p-2' style={{ height: '520px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
-                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
+                    <div className='box shadow rounded-5 me-md-3 p-2' style={{ height: '540px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '520px' }}>
                         <div className='d-flex justify-content-center'>
                           <img style={{ height: '156px' }} src={heritage_img_5} alt="" />
                         </div>
@@ -128,8 +128,8 @@ function Heritage() {
                         </div>
                       </div>
                     </div>
-                    <div className='box shadow rounded-5 me-md-3 p-2' style={{ height: '500px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
-                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '480px' }}>
+                    <div className='box shadow rounded-5 me-md-3 p-2' style={{ height: '520px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
                         <div className='d-flex justify-content-center'>
                           <img className='w-75' src={heritage_img_7} alt="" />
                         </div>
@@ -196,8 +196,8 @@ function Heritage() {
 
                   </Col>
                   <Col className='mt-md-5 pt-md-5'>
-                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '540px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
-                      <div className='rounded-5 p-1 px-md-3 py-md-5' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '520px' }}>
+                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '560px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 px-md-3 py-md-5' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '540px' }}>
                         <div className='d-flex justify-content-center'>
                           <img className='w-75' src={heritage_img_2} alt="" />
                         </div>
@@ -205,12 +205,12 @@ function Heritage() {
                           <h4 style={{ color: 'brown' }}>IPC Purchase</h4>
                           <h2 style={{ fontWeight: '700' }}>2022</h2>
                           <p>June 2022 heralded the month when the United States Polo Association secured the permanent home for polo in the United States. The USPA National Polo Center-Wellington (NPC) offers the sport of polo a lasting future in the Equestrian Capital of the World.</p>
-                          <AddCircleIcon className='heritage_icon'/>
+                          <AddCircleIcon className='heritage_icon mt-4'/>
                         </div>
                       </div>
                     </div>
-                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '510px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
-                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '490px' }}>
+                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '540px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '520px' }}>
                         <div className='d-flex justify-content-center'>
                           <img className='w-50' src={heritage_img_4} alt="" />
                         </div>
@@ -218,12 +218,12 @@ function Heritage() {
                           <h4 style={{ color: 'brown' }}>Global Polo</h4>
                           <h2 style={{ fontWeight: '700' }}>2020</h2>
                           <p>A first of its kind, this digital destination connects fans with all things polo. Launched in January 2020, Global Polo offers polo games, lifestyle content and behind the scenes stories to grow awareness for the sport of polo.</p>
-                          <AddCircleIcon className='heritage_icon'/>
+                          <AddCircleIcon className='heritage_icon mt-4'/>
                         </div>
                       </div>
                     </div>
-                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '540px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
-                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '520px' }}>
+                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '560px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '540px' }}>
                         <div className='d-flex justify-content-center'>
                           <img className='w-75' src={heritage_img_6} alt="" />
                         </div>
@@ -231,12 +231,12 @@ function Heritage() {
                           <h4 style={{ color: 'brown' }}>Collegiate Partnership Program</h4>
                           <h2 style={{ fontWeight: '700' }}>2019</h2>
                           <p>Beginning in 2019, U.S. Polo Assn. created the Collegiate Partnership Program, which has supported nearly 50 college teams in the United States helping them build their programs each year to showcase polo at the college level.</p>
-                          <AddCircleIcon className='heritage_icon'/>
+                          <AddCircleIcon className='heritage_icon mt-4'/>
                         </div>
                       </div>
                     </div>
-                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '530px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
-                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '510px' }}>
+                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '550px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '530px' }}>
                         <div className='d-flex justify-content-center'>
                           <img style={{ height: '156px' }} src={heritage_img_8} alt="" />
                         </div>
@@ -244,7 +244,7 @@ function Heritage() {
                           <h4 style={{ color: 'brown' }}>125th Anniversary</h4>
                           <h2 style={{ fontWeight: '700' }}>2015</h2>
                           <p>The 125th anniversary of the USPA is commemorated with nationally televised and live streamed major tournaments throughout the United States, a national competition for creation of the 125th logo and USPA heritage-inspired product around the world recognizing the milestone.</p>
-                          <AddCircleIcon className='heritage_icon'/>
+                          <AddCircleIcon className='heritage_icon mt-4'/>
                         </div>
                       </div>
                     </div>

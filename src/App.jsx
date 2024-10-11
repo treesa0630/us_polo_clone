@@ -7,29 +7,35 @@ import Collections from './pages/Collections'
 import Heritage from './pages/Heritage'
 import Storelocator from './pages/Storelocator'
 import Shopnow from './pages/Shopnow'
+import ScrollToTop from './pages/ScrollTop';  
+
 
 function App() {
 
 
   return (
     <>
-      <div style={{overflow:'hidden'}}>
+      <div>
+        <ScrollToTop/>
+        <div style={{ overflow: 'hidden' }}>
         <Header />
-  
-  
+
+
         <Routes>
-  
+
           <Route path='/' element={<Landing />} />
           <Route path='/collections' element={<Collections />} />
           <Route path='/heritage' element={<Heritage />} />
           <Route path='/storelocator' element={<Storelocator />} />
           <Route path='/shopnow' element={<Shopnow />} />
-  
+
         </Routes>
-  
-  
+
+
         <Footer />
       </div>
+      </div>
+
     </>
   )
 }
