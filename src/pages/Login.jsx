@@ -1,16 +1,17 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import Button from '@mui/material/Button';
 import SmsIcon from '@mui/icons-material/Sms';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import GoogleIcon from '@mui/icons-material/Google';
+import AppleIcon from '@mui/icons-material/Apple';
 
 
 function Login() {
     return (
         <>
-            <div style={{ height: '100vh', width: '100%' }}>
+            <div style={{ height: '110vh', width: '100%' }}>
                 <div style={{ height: '25vh' }} className='d-flex justify-content-center align-items-end'><h1 className='account-heading'>MY ACCOUNT</h1></div>
                 <Row>
                     <Col sm={3}></Col>
@@ -47,6 +48,8 @@ function Login() {
                         <p className='text-center mt-5 complete-profile'>Complete my profile <ArrowDropDownIcon/></p>
 
                         <button style={{ height: '45px' }} variant="" className='bg-dark text-light w-100 rounded-3 shadow'>SIGNUP</button>
+
+                        <div className='text-center m-5'><button className='py-1 px-3 me-2 rounded-5' style={{border:'none' }}><GoogleIcon style={{height:'45px'}}/></button> <button className='py-1 px-3 ms-2 rounded-5' style={{border:'none' }}><AppleIcon style={{height:'45px'}}/></button></div>
                     </Col>
                     <Col sm={3}></Col>
                 </Row>
