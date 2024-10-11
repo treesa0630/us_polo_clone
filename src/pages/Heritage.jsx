@@ -13,6 +13,13 @@ import heritage_img_5 from '../images/heritage_img_5.jpg'
 import heritage_img_6 from '../images/heritage_img_6.jpg'
 import heritage_img_7 from '../images/heritage_img_7.jpg'
 import heritage_img_8 from '../images/heritage_img_8.jpg'
+import heritage_img_9 from '../images/heritage_img_9.jpg'
+import heritage_img_10 from '../images/heritage_img_10.jpg'
+import heritage_img_11 from '../images/heritage_img_11.jpg'
+import heritage_img_12 from '../images/heritage_img_12.jpg'
+import heritage_img_14 from '../images/heritage_img_14.jpg'
+import heritage_img_15 from '../images/heritage_img_15.jpg'
+import heritage_img_16 from '../images/heritage_img_16.jpg'
 
 
 function Heritage() {
@@ -79,8 +86,8 @@ function Heritage() {
               <Col sm={3}></Col>
               <Col sm={6}>
                 <Row className='heritage-boxes'>
-                  <Col >
-                    <div className='box shadow rounded-5 p-2' style={{ height: '515px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                  <Col>
+                    <div className='box shadow rounded-5 me-md-3 p-2' style={{ height: '515px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
                       <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '495px' }}>
                         <div className='d-flex justify-content-center'>
                           <img className='w-75' src={heritage_img_1} alt="" />
@@ -93,8 +100,8 @@ function Heritage() {
                         </div>
                       </div>
                     </div>
-                    <div className='box shadow rounded-5 p-2' style={{ height: '520px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
-                      <div className='rounded-5 p-1 px-md-3 py-md-5' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
+                    <div className='box shadow rounded-5 me-md-3 p-2' style={{ height: '540px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 px-md-3 py-md-5' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '520px' }}>
                         <div className='d-flex justify-content-center'>
                           <img className='w-75' src={heritage_img_3} alt="" />
                         </div>
@@ -106,7 +113,7 @@ function Heritage() {
                         </div>
                       </div>
                     </div>
-                    <div className='box shadow rounded-5 p-2' style={{ height: '520px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                    <div className='box shadow rounded-5 me-md-3 p-2' style={{ height: '520px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
                       <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
                         <div className='d-flex justify-content-center'>
                           <img style={{ height: '156px' }} src={heritage_img_5} alt="" />
@@ -121,7 +128,7 @@ function Heritage() {
                         </div>
                       </div>
                     </div>
-                    <div className='box shadow rounded-5 p-2' style={{ height: '500px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                    <div className='box shadow rounded-5 me-md-3 p-2' style={{ height: '500px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
                       <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '480px' }}>
                         <div className='d-flex justify-content-center'>
                           <img className='w-75' src={heritage_img_7} alt="" />
@@ -134,11 +141,63 @@ function Heritage() {
                         </div>
                       </div>
                     </div>
+                    <div className='box shadow rounded-5 me-md-3 p-2' style={{ height: '530px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '510px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img className='w-75' src={heritage_img_9} alt="" />
+                        </div>
+                        <div className='text-center px-5 mt-5'>
+                          <h4 style={{ color: 'brown' }}>Women's handicaps introduced</h4>
+                          <h2 style={{ fontWeight: '700' }}>2014</h2>
+                          <p>The USPA introduces the addition of women's handicaps to enhance the level of women's polo competition.</p>
+                          <AddCircleIcon className='heritage_icon mt-5'/>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='box shadow rounded-5 me-md-3 p-2' style={{ height: '550px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '530px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img className='w-75' src={heritage_img_11} alt="" />
+                        </div>
+                        <div className='text-center px-5  mt-5'>
+                          <h4 style={{ color: 'brown' }}>Westchester Cup played in America</h4>
+                          <h2 style={{ fontWeight: '700' }}>2008</h2>
+                          <p>The USPA officially challenges the Hurlingham Polo Association of England to the Westchester Cup, making the historic duel the first time it is played in America in 70 years.</p>
+                          <AddCircleIcon className='heritage_icon'/>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='box shadow rounded-5 me-md-3 p-2' style={{ height: '520px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img style={{ height: '156px' }} src={heritage_img_5} alt="" />
+                        </div>
+                        <div className='text-center px-5 mt-5'>
+                          <h4 style={{ color: 'brown' }}>USPA 100th Birthday</h4>
+                          <h2 style={{ fontWeight: '700' }}>1990</h2>
+                          <p>The United States Polo Association celebrates its 100th birthday.</p>
+                          <AddCircleIcon className='heritage_icon mt-5'/>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='box shadow rounded-5 me-md-3 p-2' style={{ height: '550px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '530px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img className='w-75' src={heritage_img_15} alt="" />
+                        </div>
+                        <div className='text-center px-5 mt-5'>
+                          <h4 style={{ color: 'brown' }}>First women assigned USPA handicaps</h4>
+                          <h2 style={{ fontWeight: '700' }}>1973</h2>
+                          <p>Elizabeth Daily, Sue Sally Hale, Virginia Merchant and Jorie Butler Richardson are among the first women assigned USPA handicaps.</p>
+                          <AddCircleIcon className='heritage_icon mt-4'/>
+                        </div>
+                      </div>
+                    </div>
 
                   </Col>
                   <Col className='mt-md-5 pt-md-5'>
-                    <div className='box shadow rounded-5 p-2' style={{ height: '515px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
-                      <div className='rounded-5 p-1 px-md-3 py-md-5' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
+                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '540px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 px-md-3 py-md-5' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '520px' }}>
                         <div className='d-flex justify-content-center'>
                           <img className='w-75' src={heritage_img_2} alt="" />
                         </div>
@@ -150,7 +209,7 @@ function Heritage() {
                         </div>
                       </div>
                     </div>
-                    <div className='box shadow rounded-5 p-2' style={{ height: '510px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '510px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
                       <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '490px' }}>
                         <div className='d-flex justify-content-center'>
                           <img className='w-50' src={heritage_img_4} alt="" />
@@ -163,8 +222,8 @@ function Heritage() {
                         </div>
                       </div>
                     </div>
-                    <div className='box shadow rounded-5 p-2' style={{ height: '500px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
-                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '480px' }}>
+                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '540px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '520px' }}>
                         <div className='d-flex justify-content-center'>
                           <img className='w-75' src={heritage_img_6} alt="" />
                         </div>
@@ -176,8 +235,8 @@ function Heritage() {
                         </div>
                       </div>
                     </div>
-                    <div className='box shadow rounded-5 p-2' style={{ height: '520px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
-                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
+                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '530px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '510px' }}>
                         <div className='d-flex justify-content-center'>
                           <img style={{ height: '156px' }} src={heritage_img_8} alt="" />
                         </div>
@@ -186,6 +245,58 @@ function Heritage() {
                           <h2 style={{ fontWeight: '700' }}>2015</h2>
                           <p>The 125th anniversary of the USPA is commemorated with nationally televised and live streamed major tournaments throughout the United States, a national competition for creation of the 125th logo and USPA heritage-inspired product around the world recognizing the milestone.</p>
                           <AddCircleIcon className='heritage_icon'/>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '520px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img style={{ height: '156px' }} src={heritage_img_10} alt="" />
+                        </div>
+                        <div className='text-center px-5'>
+                          <h4 style={{ color: 'brown' }}>USPA Mentoring Program</h4>
+                          <h2 style={{ fontWeight: '700' }}>2010</h2>
+                          <p>The official Team USPA training and mentoring program kicks off with try-outs in Florida for young American men and women polo players.</p>
+                          <AddCircleIcon className='heritage_icon mt-5'/>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '520px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img style={{ height: '156px' }} src={heritage_img_12} alt="" />
+                        </div>
+                        <div className='text-center px-5'>
+                          <h4 style={{ color: 'brown' }}>The 100th Anniversary of the United States Polo Association</h4>
+                          <h2 style={{ fontWeight: '700' }}>2004</h2>
+                          <p>The International Polo Club at Palm Beach opens and hosts the 100-year anniversary of the United States Polo Association.</p>
+                          <AddCircleIcon className='heritage_icon mt-3'/>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='box shadow rounded-5 ms-md-3 p-2 ' style={{ height: '520px', marginTop: '10%', padding: '1%',backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img style={{ height: '156px' }} src={heritage_img_14} alt="" />
+                        </div>
+                        <div className='text-center px-5'>
+                          <h4 style={{ color: 'brown' }}>USPA Global Licensing</h4>
+                          <h2 style={{ fontWeight: '700' }}>1981</h2>
+                          <p>The licensing program for the United States Polo Association is formed to manage its trademarks and promote the sport of polo.</p>
+                          <AddCircleIcon className='heritage_icon mt-5'/>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='box shadow rounded-5 ms-md-3 p-2' style={{ height: '520px', marginTop: '10%', padding: '1%', backgroundColor: 'white' }}>
+                      <div className='rounded-5 p-1 p-md-3' style={{ backgroundColor: 'rgb(245, 245, 245)', height: '500px' }}>
+                        <div className='d-flex justify-content-center'>
+                          <img style={{ height: '156px' }} src={heritage_img_16} alt="" />
+                        </div>
+                        <div className='text-center px-5'>
+                          <h4 style={{ color: 'brown' }}>First U.S. Open Polo Championship</h4>
+                          <h2 style={{ fontWeight: '700' }}>1904</h2>
+                          <p>In New York City, the USA team defeats the British team at the first U.S. Open Polo Championship.</p>
+                          <AddCircleIcon className='heritage_icon mt-5'/>
                         </div>
                       </div>
                     </div>

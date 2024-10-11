@@ -23,6 +23,22 @@ import united_kingdom from '../images/united_kingdom.png'
 import france from '../images/france.png'
 import germany from '../images/germany.png'
 import cyprus from '../images/cyprus.png'
+import greece from '../images/greece.png'
+import japan from '../images/japan.png'
+import south_korea from '../images/south_korea.png'
+import norway from '../images/norway.png'
+import brazil from '../images/brazil.png'
+import romania from '../images/romania.png'
+import argentina from '../images/argentina.png'
+import colombia from '../images/colombia.png'
+import el_salvador from '../images/el_salvador.png'
+import guatemala from '../images/guatemala.png'
+import honduras from '../images/honduras.png'
+import mexico from '../images/mexico.png'
+import panama from '../images/panama.png'
+import spain from '../images/spain.png'
+import thailand from '../images/thailand.png'
+import ukraine from '../images/ukraine.png'
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faGlobe, faXmark } from '@fortawesome/free-solid-svg-icons';
@@ -34,17 +50,18 @@ import Col from 'react-bootstrap/Col';
 
 
 function Header() {
-    
+
     const [modalShow, setModalShow] = useState(false);
     const [expanded, setExpanded] = useState(false); // State to control navbar expansion
 
     // Function to close the navbar after selecting a link
     const handleNavLinkClick = () => {
-        setExpanded(false);}
+        setExpanded(false);
+    }
 
     return (
         <>
-            <div style={{position:'fixed', width:'100%', backgroundColor:'white'}}>
+            <div style={{ position: 'fixed', width: '100%', backgroundColor: 'white' }}>
                 <Navbar expand="lg" className="body bg-body-transparent mt-2" expanded={expanded}>
                     <Container>
                         <Link to="/" style={{ textDecoration: 'none' }}>
@@ -85,7 +102,7 @@ function Header() {
                                     </Navbar.Brand>
                                 </Link>
                                 <Button variant="" onClick={() => setModalShow(true)}>
-                                    <FontAwesomeIcon icon={faGlobe} size='xl' style={{ color: "#000000", }} /> 
+                                    <FontAwesomeIcon icon={faGlobe} size='xl' style={{ color: "#000000", }} />
                                     <FontAwesomeIcon className='ms-2' icon={faAngleDown} style={{ color: "#000000", }} />
                                 </Button>
                                 <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)} />
@@ -114,72 +131,72 @@ function MyVerticallyCenteredModal(props) {
             <Modal.Body>
                 <Container>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><FontAwesomeIcon icon={faGlobe} size='xl' style={{ color: "#000000", }} /> English (Global)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={egypt} /> Arabic (Egypt)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><FontAwesomeIcon icon={faGlobe} size='lg' style={{ color: "#000000", }} /> English (Global)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={egypt} /> Arabic (Egypt)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={saudi_arabia} /> Arabic (Saudi Arabia)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Arabic (United Arab Emirates)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={saudi_arabia} /> Arabic (Saudi Arabia)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Arabic (United Arab Emirates)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={bosnia} /> Bosnian (Bosnia and Herzegovina)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={china} /> Chinese (Simplified)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={bosnia} /> Bosnian (Bosnia and Herzegovina)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={china} /> Chinese (Simplified)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={denmark} /> Danish (Denmark)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={australia} /> English (Australia)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={denmark} /> Danish (Denmark)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={australia} /> English (Australia)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={hong_kong} /> English (Hong Kong SAR China)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={india} /> English (India)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={hong_kong} /> English (Hong Kong SAR China)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={india} /> English (India)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={new_zealand} /> English (New Zealand)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={philippines} /> English (Philippines)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={new_zealand} /> English (New Zealand)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={philippines} /> English (Philippines)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={south_africa} /> English (South Africa)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={south_africa} /> English (South Africa)</button></Col>
                         <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_kingdom} /> English (United Kingdom)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={france} /> French (France)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={germany} /> German (Germany)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={france} /> French (France)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={germany} /> German (Germany)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={cyprus} /> Greek (Cyprus)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Greek (Greece)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={cyprus} /> Greek (Cyprus)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={greece} /> Greek (Greece)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={italy} /> Italian (Italy)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Japanese (Japan)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={italy} /> Italian (Italy)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={japan} /> Japanese (Japan)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Korean (South Korea)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Norwegian Bokmal (Norway)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={south_korea} /> Korean (South Korea)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={norway} /> Norwegian Bokmal (Norway)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Portuguese (Brazil)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Romanian (Romania)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={brazil} /> Portuguese (Brazil)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={romania} /> Romanian (Romania)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Spanish (Argentina)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Spanish (Colombia)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '13px' }} src={argentina} /> Spanish (Argentina)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={colombia} /> Spanish (Colombia)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Spanish (El Salvador)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Spanish (Guatemala)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '14px' }} src={el_salvador} /> Spanish (El Salvador)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '17px' }} src={guatemala} /> Spanish (Guatemala)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Spanish (Honduras)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Spanish (Mexico)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={honduras} /> Spanish (Honduras)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={mexico} /> Spanish (Mexico)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} />Spanish (Panama)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Spanish (Spain)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={panama} />Spanish (Panama)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '14px' }} src={spain} /> Spanish (Spain)</button></Col>
                     </Row>
                     <Row>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Thai (Thailand)</button></Col>
-                        <Col className='py-1' sm><button className='w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={united_arab_emirates} /> Ukranian (Ukraine)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={thailand} /> Thai (Thailand)</button></Col>
+                        <Col className='py-1' sm><button className='bttn w-100 border border-light bg-transparent'><img style={{ height: '20px' }} src={ukraine} /> Ukranian (Ukraine)</button></Col>
                     </Row>
                 </Container>
 

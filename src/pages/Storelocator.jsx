@@ -42,9 +42,9 @@ function Storelocator() {
           <h6 className=' ms-3'>50 Locations near United States</h6>
 
 
-          <div className='overflow-auto' style={{ height: '670px'}}>
+          <div className='location-direction' style={{ height: '670px'}}>
 
-            <Row className='ms-3 mt-4'>
+            <Row className='ms-3 mt-4 '>
               <div className='d-flex'>
                 <div><AddLocationIcon /></div>
                 <div>
@@ -64,8 +64,9 @@ function Storelocator() {
                 <div><AddLocationIcon /></div>
                 <div>
                   <h6>U.S. Polo Assn.</h6>
-                  <span>12801 West Sunrise Blvd</span> <br />
-                  <span>Sunrise, FL 33323</span>
+                  <h6>Open until 8:00 PM</h6>
+                  <span>11401 Pines Blvd</span> <br />
+                  <span>Pembroke Pines, FL 33026</span>
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
@@ -79,8 +80,9 @@ function Storelocator() {
                 <div><AddLocationIcon /></div>
                 <div>
                   <h6>U.S. Polo Assn.</h6>
-                  <span>12801 West Sunrise Blvd</span> <br />
-                  <span>Sunrise, FL 33323</span>
+                  <h6>Open until 8:00 PM</h6>
+                  <span>1238 Town East Mall</span> <br />
+                  <span>Mesquite, TX 75150</span>
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
@@ -94,8 +96,9 @@ function Storelocator() {
                 <div><AddLocationIcon /></div>
                 <div>
                   <h6>U.S. Polo Assn.</h6>
-                  <span>12801 West Sunrise Blvd</span> <br />
-                  <span>Sunrise, FL 33323</span>
+                  <h6>Open until 8:00 PM</h6>
+                  <span>15 B Richmond Terrace</span> <br />
+                  <span>Staten Island, NY 10301</span>
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
@@ -109,8 +112,9 @@ function Storelocator() {
                 <div><AddLocationIcon /></div>
                 <div>
                   <h6>U.S. Polo Assn.</h6>
-                  <span>12801 West Sunrise Blvd</span> <br />
-                  <span>Sunrise, FL 33323</span>
+                  <h6>Open until 6:00 AM</h6>
+                  <span>1540 Broadway</span> <br />
+                  <span>New York, NY 10036</span>
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
@@ -124,8 +128,9 @@ function Storelocator() {
                 <div><AddLocationIcon /></div>
                 <div>
                   <h6>U.S. Polo Assn.</h6>
-                  <span>12801 West Sunrise Blvd</span> <br />
-                  <span>Sunrise, FL 33323</span>
+                  <h6>Open until 9:00 PM</h6>
+                  <span>1675 West 49th Street</span> <br />
+                  <span>Hialeah, FL 33012</span>
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
@@ -139,8 +144,73 @@ function Storelocator() {
                 <div><AddLocationIcon /></div>
                 <div>
                   <h6>U.S. Polo Assn.</h6>
-                  <span>12801 West Sunrise Blvd</span> <br />
-                  <span>Sunrise, FL 33323</span>
+                  <h6>Open until 9:00 PM</h6>
+                  <span>200 Baychester Avenue</span> <br />
+                  <span>Bronx, NY 10475</span>
+                </div>
+              </div>
+              <Row className='d-flex justify-content-end'>
+                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+              </Row>
+            </Row>
+            <hr />
+
+            <Row className='ms-3 mt-4'>
+              <div className='d-flex'>
+                <div><AddLocationIcon /></div>
+                <div>
+                  <h6>U.S. Polo Assn.</h6>
+                  <h6>Open until 8:00 PM</h6>
+                  <span>2172 Galleria Way</span> <br />
+                  <span>Glendale, CA 91210</span>
+                </div>
+              </div>
+              <Row className='d-flex justify-content-end'>
+                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+              </Row>
+            </Row>
+            <hr />
+
+            <Row className='ms-3 mt-4'>
+              <div className='d-flex'>
+                <div><AddLocationIcon /></div>
+                <div>
+                  <h6>U.S. Polo Assn.</h6>
+                  <h6>Open until 9:00 PM</h6>
+                  <span>2200 S Old 10th Street</span> <br />
+                  <span>McAllen, TX 78503</span>
+                </div>
+              </div>
+              <Row className='d-flex justify-content-end'>
+                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+              </Row>
+            </Row>
+            <hr />
+
+            <Row className='ms-3 mt-4'>
+              <div className='d-flex'>
+                <div><AddLocationIcon /></div>
+                <div>
+                  <h6>U.S. Polo Assn.</h6>
+                  <h6>Open until 9:00 PM</h6>
+                  <span>3663 S Las Vegas Blvd</span> <br />
+                  <span>Las Vegas, NV 89109</span>
+                </div>
+              </div>
+              <Row className='d-flex justify-content-end'>
+                <Button className='w-50 mt-4 mt-md-2 bg-danger rounded-0' variant="contained">Directions</Button>
+              </Row>
+            </Row>
+            <hr />
+
+            <Row className='ms-3 mt-4'>
+              <div className='d-flex'>
+                <div><AddLocationIcon /></div>
+                <div>
+                  <h6>U.S. Polo Assn.</h6>
+                  <h6>Open until 10:00 PM</h6>
+                  <span>401 Biscayne Blvd</span> <br />
+                  <span>Miami, FL 33132</span>
                 </div>
               </div>
               <Row className='d-flex justify-content-end'>
