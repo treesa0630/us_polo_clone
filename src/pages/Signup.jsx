@@ -29,10 +29,10 @@ function Signup() {
 
                         <p className='input-box mt-2'><b>* Enter OTP</b></p>
                         <div className='d-flex'>
-                            <input checked type="radio" name="sms" id="sms" value='sms' />
+                            <input checked type="radio" name="otp" />
                             <label className='ms-3' for="option1"><SmsIcon /> SMS</label>
 
-                            <input className='ms-5' type="radio" name="whatsapp" id="whatsapp" value='whatsapp' />
+                            <input className='ms-5' type="radio" name="otp"  />
                             <label className='ms-3' for="option1"><WhatsAppIcon style={{ color: 'green' }} /> WhatsApp</label>
 
                         </div>
@@ -41,7 +41,7 @@ function Signup() {
                             <button style={{ height: '50px',width:'100px' }} variant="" className=' border rounded-4 ms-3 mt-2 bg-transparent shadow'>Get OPT</button>
                         </div>
 
-                        <input checked className='mt-4' type="checkbox" name="" id="" /><label className='input-box ms-3'>Agree to receive communications related to order and promotional offers.</label>
+                        <input  className='mt-4' type="checkbox" name="" id="" /><label className='input-box ms-3'>Agree to receive communications related to order and promotional offers.</label>
 
                         <p className='text-center mt-5 complete-profile'>Complete my profile <ArrowDropDownIcon /> </p>
 
