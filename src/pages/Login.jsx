@@ -21,7 +21,7 @@ function Login() {
                                 <div className='mt-4' style={{height:'2px',width:'100%', backgroundColor:'black'}}></div>
                                 </Col>
                             <Col className='text-center'><h4 ><Link className='acnt-name' to='/signup' >SIGNUP</Link></h4>
-                            <div className='mt-4' style={{height:'2px',width:'100%', backgroundColor:'lightgrey'}}></div>
+                            <div className='mt-4' style={{height:'2px',width:'100%', backgroundColor:' rgb(219, 219, 219)'}}></div>
                             </Col>
                         </Row>
 
@@ -49,7 +49,7 @@ function Login() {
 
                         <p className='text-center mt-5 complete-profile'>Complete my profile <ArrowDropDownIcon/></p>
 
-                        <button style={{ height: '45px' }} variant="" className='bg-dark text-light w-100 rounded-3 shadow'>LOGIN</button>
+                        <button style={{ height: '45px' }} variant="" className='bg-dark text-light w-100 rounded-3 shadow'>SIGNUP</button>
 
                         <div className='text-center m-5'><button className='py-1 px-3 me-2 rounded-5' style={{border:'none' }}><GoogleIcon style={{height:'45px'}}/></button> <button className='py-1 px-3 ms-2 rounded-5' style={{border:'none' }}><AppleIcon style={{height:'45px'}}/></button></div>
                     </Col>
