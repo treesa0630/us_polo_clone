@@ -347,7 +347,10 @@ input[type=number]::-webkit-inner-spin-button {
 }
 .acnt-name{
   text-decoration: none;
-  color: rgb(206, 205, 205);
+  color: rgb(219, 219, 219);
+}
+input{
+  accent-color: rgb(109, 109, 109);
 }
 html{
   scroll-behavior: smooth;
