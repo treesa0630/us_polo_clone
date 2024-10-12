@@ -17,7 +17,7 @@ function Signup() {
                     <Col className='px-4 '>
                         <Row className='d-flex mt-5'>
                             <Col className='text-center' ><Link to='/login' className='acnt-name'><h4 >LOGIN</h4></Link>
-                            <div className='mt-4' style={{height:'2px',width:'100%', backgroundColor:'lightgrey'}}></div></Col>
+                            <div className='mt-4' style={{height:'2px',width:'100%', backgroundColor:'rgb(219, 219, 219)'}}></div></Col>
                             <Col className='text-center'><h4><Link to='/signup' className='acnt-name text-dark'>SIGNUP</Link></h4>
                             <div className='mt-4' style={{height:'2px',width:'100%', backgroundColor:'black'}}></div></Col>
                         </Row>
